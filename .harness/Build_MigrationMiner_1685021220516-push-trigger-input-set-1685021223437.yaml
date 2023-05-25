@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_MigrationMiner_1685021220516-push-trigger-input-set
+  identifier: Build_MigrationMiner_1685021220516pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_MigrationMiner_1685021220516
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
