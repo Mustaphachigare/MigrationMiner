@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_MigrationMiner_1685021220516-pr-trigger-input-set
+  identifier: Build_MigrationMiner_1685021220516prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_MigrationMiner_1685021220516
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
